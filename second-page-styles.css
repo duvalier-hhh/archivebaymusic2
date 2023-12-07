@@ -1,0 +1,56 @@
+body,
+html {
+padding: 0;
+margin: 0;
+background-color:red;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.grid-container {
+display: grid;
+background: red;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px; 
+padding: 20px; 
+position: relative;
+
+    
+}
+
+.nav-link {
+color: white;
+text-decoration: none;
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.nav-container {
+grid-column: span 2;
+grid-row: 1;
+
+}
+
+.side-a-link {
+grid-column: span 2;
+grid-row: 1;
+
+}
+
+.side-a-img {
+width: 100%;
+height: auto;
+object-fit: cover;
+max-width: 20%;
+}
+
+
+
+
+
+
