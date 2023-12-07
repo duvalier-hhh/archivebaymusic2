@@ -15,7 +15,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .grid-container {
 display: grid;
 background: red;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(5, 1fr);
 gap: 20px; 
 padding: 20px; 
 position: relative;
@@ -30,7 +30,7 @@ margin-bottom: 20px;
 }
 
 .side-a-link {
-grid-column: span 4;
+grid-column: span 5;
 max-width: 100%;
 
 
