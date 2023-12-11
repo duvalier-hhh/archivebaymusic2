@@ -45,6 +45,20 @@ object-fit: contain;
 
 }
 
+.print-button-link {
+text-decoration: none; /* Remove underline for the link */
+
+}
+
+
+  /* Style for the print button */
+.print-button {
+max-width: 100%; /* Adjust size as needed */
+height: auto;
+object-fit: contain;
+
+}
+
 
 
 
